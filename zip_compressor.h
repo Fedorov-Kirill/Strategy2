@@ -1,8 +1,8 @@
 #ifndef ZIP_COMPRESSOR_H
 #define ZIP_COMPRESSOR_H
-#include "compressor.h"
+#include "compression.h"
 
-class Zip_Compressor : public Compressor
+class Zip_Compressor : public Compression
 {
 public:
     Zip_Compressor();

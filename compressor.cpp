@@ -1,12 +1,15 @@
 #include "compressor.h"
 
-Compressor::Compressor()
+Compressor::Compressor(Compression *alg)
 {
- p->compress();
+ this->p = alg;
 }
 
 Compressor::~Compressor()
 {
-
+   delete p;
 }
 
+void Compressor::compress() {
+    p->compress();
+}

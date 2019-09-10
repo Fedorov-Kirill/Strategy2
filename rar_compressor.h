@@ -1,8 +1,8 @@
 #ifndef RAR_COMPRESSOR_H
 #define RAR_COMPRESSOR_H
-#include "compressor.h"
+#include "compression.h"
 
-class Rar_Compressor : public Compressor
+class Rar_Compressor : public Compression
 {
 public:
     Rar_Compressor();

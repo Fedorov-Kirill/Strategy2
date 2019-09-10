@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         arj_compressor.cpp \
+        compression.cpp \
         compressor.cpp \
         main.cpp \
         rar_compressor.cpp \
@@ -28,6 +29,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     arj_compressor.h \
+    compression.h \
     compressor.h \
     rar_compressor.h \
     zip_compressor.h

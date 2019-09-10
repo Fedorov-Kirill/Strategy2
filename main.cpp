@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    Compressor *p =new Zip_Compressor();
-    p-> compress();
+    Compressor *p =new Compressor(new Zip_Compressor());
+    p->compress();
     return a.exec();
 }

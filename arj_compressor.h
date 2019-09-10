@@ -1,8 +1,8 @@
 #ifndef ARJ_COMPRESSOR_H
 #define ARJ_COMPRESSOR_H
-#include "compressor.h"
+#include "compression.h"
 
-class Arj_Compressor : public Compressor
+class Arj_Compressor : public Compression
 {
 public:
     Arj_Compressor();
